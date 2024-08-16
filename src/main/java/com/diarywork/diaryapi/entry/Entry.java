@@ -28,12 +28,6 @@ public class Entry {
         this.entry_content = entry_content;
     }
 
-/*    public Entry(Long id, String entry_day, String entry_date, String entry_content) {
-        this.id = id;
-        this.entry_day = entry_date;
-        this.entry_date = entry_day;
-        this.entry_content = entry_content;
-    }*/
     public Entry(){}
 
     public Long getId() {
@@ -67,7 +61,6 @@ public class Entry {
     public void setEntry_day(String entry_day) {
         this.entry_day = entry_day;
     }
-
 }
 
 
