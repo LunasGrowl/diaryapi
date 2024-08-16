@@ -8,11 +8,5 @@ import java.util.List;
 
 @Configuration
 public class EntryConfig {
-/*   @Bean
-    CommandLineRunner commandLineRunner(EntryRepo entryRepo){
-        return args -> {
-            Entry day1 = new Entry();
-            entryRepo.saveAll(List.of(day1));
-        };
-    }*/
+
 }
