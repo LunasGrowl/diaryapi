@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS entry (
-  id int,
+  id INT AUTO_INCREMENT PRIMARY KEY,
   entry_day varchar(255),
   entry_date varchar(255),
   entry_content varchar(255)

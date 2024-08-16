@@ -5,11 +5,12 @@ import jakarta.persistence.*;
 
 //@NoArgsConstructor
 @Entity
-@Table(name = "entry")
+@Table
 public class Entry {
 
     @Id
-    @GeneratedValue ( strategy = GenerationType.IDENTITY)
+    //@SequenceGenerator(name = "entry_sequence", sequenceName = "entry_sequence", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column
